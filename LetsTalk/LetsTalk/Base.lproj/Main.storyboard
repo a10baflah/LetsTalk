@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LetsTalk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMu-pt-v3U">
+                                <rect key="frame" x="33" y="568" width="349" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="a0s-l9-jkm"/>
+                                </constraints>
+                                <color key="tintColor" name="AccentColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Join">
+                                            <attributes>
+                                                <font key="NSFont" size="28" name="Helvetica"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="wkJ-Xg-YNS" kind="presentation" modalPresentationStyle="fullScreen" id="JXf-ey-9gq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFL-bm-9fu">
+                                <rect key="frame" x="33" y="688" width="349" height="65"/>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Log In"/>
+                                <connections>
+                                    <segue destination="PYu-9E-sIS" kind="presentation" modalPresentationStyle="fullScreen" id="Hnp-OQ-74y"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LetsTalk" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4g-Er-p1G">
+                                <rect key="frame" x="141" y="342" width="132" height="47"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="39"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRJ-mb-e0c">
+                                <rect key="frame" x="64" y="361" width="286" height="117"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="117" id="479-Lg-Fde"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Group">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <font key="NSOriginalFont" size="22" name="AppleColorEmoji"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Messaging">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <font key="NSOriginalFont" size="22" name="AppleColorEmoji"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Made">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <font key="NSOriginalFont" size="22" name="AppleColorEmoji"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Simple">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <font key="NSOriginalFont" size="22" name="AppleColorEmoji"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" name="AccentColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="S5X-d1-xfl">
+                                <rect key="frame" x="68.5" y="130" width="277" height="194"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="S5X-d1-xfl" secondAttribute="height" multiplier="277:194" id="1GL-lQ-Ss0"/>
+                                    <constraint firstAttribute="height" constant="194" id="Y2H-30-38X"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Color"/>
+                        <constraints>
+                            <constraint firstItem="S5X-d1-xfl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="82" id="6V2-dn-7cU"/>
+                            <constraint firstItem="S5X-d1-xfl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7AK-ln-GAF"/>
+                            <constraint firstItem="S5X-d1-xfl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68.5" id="7Xn-Ne-egX"/>
+                            <constraint firstItem="sMu-pt-v3U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="DIf-El-Zql"/>
+                            <constraint firstItem="XRJ-mb-e0c" firstAttribute="firstBaseline" secondItem="l4g-Er-p1G" secondAttribute="baseline" id="ER2-b0-NmZ"/>
+                            <constraint firstItem="XRJ-mb-e0c" firstAttribute="centerX" secondItem="l4g-Er-p1G" secondAttribute="centerX" id="GAO-03-hOd"/>
+                            <constraint firstItem="SFL-bm-9fu" firstAttribute="centerX" secondItem="S5X-d1-xfl" secondAttribute="centerX" id="GVP-KV-kGI"/>
+                            <constraint firstItem="SFL-bm-9fu" firstAttribute="leading" secondItem="sMu-pt-v3U" secondAttribute="leading" id="Ps4-W8-eJs"/>
+                            <constraint firstItem="SFL-bm-9fu" firstAttribute="trailing" secondItem="sMu-pt-v3U" secondAttribute="trailing" id="W89-Xd-yap"/>
+                            <constraint firstItem="l4g-Er-p1G" firstAttribute="top" secondItem="S5X-d1-xfl" secondAttribute="bottom" constant="18" id="Z4s-dC-KrQ"/>
+                            <constraint firstItem="sMu-pt-v3U" firstAttribute="centerX" secondItem="XRJ-mb-e0c" secondAttribute="centerX" id="iDT-VG-lMD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SFL-bm-9fu" secondAttribute="bottom" constant="109" id="o3j-jx-CsQ"/>
+                            <constraint firstItem="sMu-pt-v3U" firstAttribute="top" secondItem="XRJ-mb-e0c" secondAttribute="bottom" constant="90" id="swq-3U-baR"/>
+                            <constraint firstItem="SFL-bm-9fu" firstAttribute="top" secondItem="sMu-pt-v3U" secondAttribute="bottom" constant="34" id="ze7-ik-ogP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20.289855072463769" y="3.3482142857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ko4-P3-SSI">
+            <objects>
+                <viewController id="PYu-9E-sIS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bue-7Z-chK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="t5Q-GJ-jxj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YPM-oh-lUL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hSi-BP-MYL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745" y="437"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9LL-bV-N1j">
+            <objects>
+                <viewController id="wkJ-Xg-YNS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Aw1-QW-gd6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="UKz-o1-str"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JnF-5a-8je"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5PH-Uk-hBz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="746" y="-256"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="376" height="385"/>
+        <namedColor name="AccentColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color">
+            <color red="0.25098040700000002" green="0.2352941036" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

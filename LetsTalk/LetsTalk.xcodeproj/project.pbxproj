@@ -7,61 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CFE94970291CB85100BE399A /* LetsTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9496F291CB85100BE399A /* LetsTalkApp.swift */; };
-		CFE94972291CB85100BE399A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE94971291CB85100BE399A /* ContentView.swift */; };
-		CFE94974291CB85200BE399A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE94973291CB85200BE399A /* Assets.xcassets */; };
-		CFE94977291CB85200BE399A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE94976291CB85200BE399A /* Preview Assets.xcassets */; };
-		CFE94981291CB85200BE399A /* LetsTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE94980291CB85200BE399A /* LetsTalkTests.swift */; };
-		CFE9498B291CB85200BE399A /* LetsTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9498A291CB85200BE399A /* LetsTalkUITests.swift */; };
-		CFE9498D291CB85200BE399A /* LetsTalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9498C291CB85200BE399A /* LetsTalkUITestsLaunchTests.swift */; };
+		CF28F61A291F4830009EA839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28F619291F4830009EA839 /* AppDelegate.swift */; };
+		CF28F61C291F4830009EA839 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28F61B291F4830009EA839 /* SceneDelegate.swift */; };
+		CF28F61E291F4830009EA839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28F61D291F4830009EA839 /* ViewController.swift */; };
+		CF28F621291F4830009EA839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF28F61F291F4830009EA839 /* Main.storyboard */; };
+		CF28F623291F4831009EA839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF28F622291F4831009EA839 /* Assets.xcassets */; };
+		CF28F626291F4831009EA839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF28F624291F4831009EA839 /* LaunchScreen.storyboard */; };
+		CF28F631291F4831009EA839 /* LetsTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28F630291F4831009EA839 /* LetsTalkTests.swift */; };
+		CF28F63B291F4831009EA839 /* LetsTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28F63A291F4831009EA839 /* LetsTalkUITests.swift */; };
+		CF28F63D291F4831009EA839 /* LetsTalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28F63C291F4831009EA839 /* LetsTalkUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CFE9497D291CB85200BE399A /* PBXContainerItemProxy */ = {
+		CF28F62D291F4831009EA839 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CFE94964291CB85100BE399A /* Project object */;
+			containerPortal = CF28F60E291F4830009EA839 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CFE9496B291CB85100BE399A;
+			remoteGlobalIDString = CF28F615291F4830009EA839;
 			remoteInfo = LetsTalk;
 		};
-		CFE94987291CB85200BE399A /* PBXContainerItemProxy */ = {
+		CF28F637291F4831009EA839 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CFE94964291CB85100BE399A /* Project object */;
+			containerPortal = CF28F60E291F4830009EA839 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CFE9496B291CB85100BE399A;
+			remoteGlobalIDString = CF28F615291F4830009EA839;
 			remoteInfo = LetsTalk;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CFE9496C291CB85100BE399A /* LetsTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE9496F291CB85100BE399A /* LetsTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkApp.swift; sourceTree = "<group>"; };
-		CFE94971291CB85100BE399A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CFE94973291CB85200BE399A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CFE94976291CB85200BE399A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CFE9497C291CB85200BE399A /* LetsTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE94980291CB85200BE399A /* LetsTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkTests.swift; sourceTree = "<group>"; };
-		CFE94986291CB85200BE399A /* LetsTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE9498A291CB85200BE399A /* LetsTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkUITests.swift; sourceTree = "<group>"; };
-		CFE9498C291CB85200BE399A /* LetsTalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF28F616291F4830009EA839 /* LetsTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF28F619291F4830009EA839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF28F61B291F4830009EA839 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF28F61D291F4830009EA839 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF28F620291F4830009EA839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF28F622291F4831009EA839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF28F625291F4831009EA839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF28F627291F4831009EA839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF28F62C291F4831009EA839 /* LetsTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF28F630291F4831009EA839 /* LetsTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkTests.swift; sourceTree = "<group>"; };
+		CF28F636291F4831009EA839 /* LetsTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF28F63A291F4831009EA839 /* LetsTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkUITests.swift; sourceTree = "<group>"; };
+		CF28F63C291F4831009EA839 /* LetsTalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CFE94969291CB85100BE399A /* Frameworks */ = {
+		CF28F613291F4830009EA839 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFE94979291CB85200BE399A /* Frameworks */ = {
+		CF28F629291F4831009EA839 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFE94983291CB85200BE399A /* Frameworks */ = {
+		CF28F633291F4831009EA839 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,58 +76,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CFE94963291CB85100BE399A = {
+		CF28F60D291F4830009EA839 = {
 			isa = PBXGroup;
 			children = (
-				CFE9496E291CB85100BE399A /* LetsTalk */,
-				CFE9497F291CB85200BE399A /* LetsTalkTests */,
-				CFE94989291CB85200BE399A /* LetsTalkUITests */,
-				CFE9496D291CB85100BE399A /* Products */,
+				CF28F618291F4830009EA839 /* LetsTalk */,
+				CF28F62F291F4831009EA839 /* LetsTalkTests */,
+				CF28F639291F4831009EA839 /* LetsTalkUITests */,
+				CF28F617291F4830009EA839 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CFE9496D291CB85100BE399A /* Products */ = {
+		CF28F617291F4830009EA839 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFE9496C291CB85100BE399A /* LetsTalk.app */,
-				CFE9497C291CB85200BE399A /* LetsTalkTests.xctest */,
-				CFE94986291CB85200BE399A /* LetsTalkUITests.xctest */,
+				CF28F616291F4830009EA839 /* LetsTalk.app */,
+				CF28F62C291F4831009EA839 /* LetsTalkTests.xctest */,
+				CF28F636291F4831009EA839 /* LetsTalkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CFE9496E291CB85100BE399A /* LetsTalk */ = {
+		CF28F618291F4830009EA839 /* LetsTalk */ = {
 			isa = PBXGroup;
 			children = (
-				CFE9496F291CB85100BE399A /* LetsTalkApp.swift */,
-				CFE94971291CB85100BE399A /* ContentView.swift */,
-				CFE94973291CB85200BE399A /* Assets.xcassets */,
-				CFE94975291CB85200BE399A /* Preview Content */,
+				CF28F619291F4830009EA839 /* AppDelegate.swift */,
+				CF28F61B291F4830009EA839 /* SceneDelegate.swift */,
+				CF28F61D291F4830009EA839 /* ViewController.swift */,
+				CF28F61F291F4830009EA839 /* Main.storyboard */,
+				CF28F622291F4831009EA839 /* Assets.xcassets */,
+				CF28F624291F4831009EA839 /* LaunchScreen.storyboard */,
+				CF28F627291F4831009EA839 /* Info.plist */,
 			);
 			path = LetsTalk;
 			sourceTree = "<group>";
 		};
-		CFE94975291CB85200BE399A /* Preview Content */ = {
+		CF28F62F291F4831009EA839 /* LetsTalkTests */ = {
 			isa = PBXGroup;
 			children = (
-				CFE94976291CB85200BE399A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		CFE9497F291CB85200BE399A /* LetsTalkTests */ = {
-			isa = PBXGroup;
-			children = (
-				CFE94980291CB85200BE399A /* LetsTalkTests.swift */,
+				CF28F630291F4831009EA839 /* LetsTalkTests.swift */,
 			);
 			path = LetsTalkTests;
 			sourceTree = "<group>";
 		};
-		CFE94989291CB85200BE399A /* LetsTalkUITests */ = {
+		CF28F639291F4831009EA839 /* LetsTalkUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CFE9498A291CB85200BE399A /* LetsTalkUITests.swift */,
-				CFE9498C291CB85200BE399A /* LetsTalkUITestsLaunchTests.swift */,
+				CF28F63A291F4831009EA839 /* LetsTalkUITests.swift */,
+				CF28F63C291F4831009EA839 /* LetsTalkUITestsLaunchTests.swift */,
 			);
 			path = LetsTalkUITests;
 			sourceTree = "<group>";
@@ -130,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CFE9496B291CB85100BE399A /* LetsTalk */ = {
+		CF28F615291F4830009EA839 /* LetsTalk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFE94990291CB85200BE399A /* Build configuration list for PBXNativeTarget "LetsTalk" */;
+			buildConfigurationList = CF28F640291F4831009EA839 /* Build configuration list for PBXNativeTarget "LetsTalk" */;
 			buildPhases = (
-				CFE94968291CB85100BE399A /* Sources */,
-				CFE94969291CB85100BE399A /* Frameworks */,
-				CFE9496A291CB85100BE399A /* Resources */,
+				CF28F612291F4830009EA839 /* Sources */,
+				CF28F613291F4830009EA839 /* Frameworks */,
+				CF28F614291F4830009EA839 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +144,69 @@
 			);
 			name = LetsTalk;
 			productName = LetsTalk;
-			productReference = CFE9496C291CB85100BE399A /* LetsTalk.app */;
+			productReference = CF28F616291F4830009EA839 /* LetsTalk.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CFE9497B291CB85200BE399A /* LetsTalkTests */ = {
+		CF28F62B291F4831009EA839 /* LetsTalkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFE94993291CB85200BE399A /* Build configuration list for PBXNativeTarget "LetsTalkTests" */;
+			buildConfigurationList = CF28F643291F4831009EA839 /* Build configuration list for PBXNativeTarget "LetsTalkTests" */;
 			buildPhases = (
-				CFE94978291CB85200BE399A /* Sources */,
-				CFE94979291CB85200BE399A /* Frameworks */,
-				CFE9497A291CB85200BE399A /* Resources */,
+				CF28F628291F4831009EA839 /* Sources */,
+				CF28F629291F4831009EA839 /* Frameworks */,
+				CF28F62A291F4831009EA839 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CFE9497E291CB85200BE399A /* PBXTargetDependency */,
+				CF28F62E291F4831009EA839 /* PBXTargetDependency */,
 			);
 			name = LetsTalkTests;
 			productName = LetsTalkTests;
-			productReference = CFE9497C291CB85200BE399A /* LetsTalkTests.xctest */;
+			productReference = CF28F62C291F4831009EA839 /* LetsTalkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CFE94985291CB85200BE399A /* LetsTalkUITests */ = {
+		CF28F635291F4831009EA839 /* LetsTalkUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFE94996291CB85200BE399A /* Build configuration list for PBXNativeTarget "LetsTalkUITests" */;
+			buildConfigurationList = CF28F646291F4831009EA839 /* Build configuration list for PBXNativeTarget "LetsTalkUITests" */;
 			buildPhases = (
-				CFE94982291CB85200BE399A /* Sources */,
-				CFE94983291CB85200BE399A /* Frameworks */,
-				CFE94984291CB85200BE399A /* Resources */,
+				CF28F632291F4831009EA839 /* Sources */,
+				CF28F633291F4831009EA839 /* Frameworks */,
+				CF28F634291F4831009EA839 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CFE94988291CB85200BE399A /* PBXTargetDependency */,
+				CF28F638291F4831009EA839 /* PBXTargetDependency */,
 			);
 			name = LetsTalkUITests;
 			productName = LetsTalkUITests;
-			productReference = CFE94986291CB85200BE399A /* LetsTalkUITests.xctest */;
+			productReference = CF28F636291F4831009EA839 /* LetsTalkUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CFE94964291CB85100BE399A /* Project object */ = {
+		CF28F60E291F4830009EA839 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					CFE9496B291CB85100BE399A = {
+					CF28F615291F4830009EA839 = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					CFE9497B291CB85200BE399A = {
+					CF28F62B291F4831009EA839 = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = CFE9496B291CB85100BE399A;
+						TestTargetID = CF28F615291F4830009EA839;
 					};
-					CFE94985291CB85200BE399A = {
+					CF28F635291F4831009EA839 = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = CFE9496B291CB85100BE399A;
+						TestTargetID = CF28F615291F4830009EA839;
 					};
 				};
 			};
-			buildConfigurationList = CFE94967291CB85100BE399A /* Build configuration list for PBXProject "LetsTalk" */;
+			buildConfigurationList = CF28F611291F4830009EA839 /* Build configuration list for PBXProject "LetsTalk" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = CFE94963291CB85100BE399A;
-			productRefGroup = CFE9496D291CB85100BE399A /* Products */;
+			mainGroup = CF28F60D291F4830009EA839;
+			productRefGroup = CF28F617291F4830009EA839 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFE9496B291CB85100BE399A /* LetsTalk */,
-				CFE9497B291CB85200BE399A /* LetsTalkTests */,
-				CFE94985291CB85200BE399A /* LetsTalkUITests */,
+				CF28F615291F4830009EA839 /* LetsTalk */,
+				CF28F62B291F4831009EA839 /* LetsTalkTests */,
+				CF28F635291F4831009EA839 /* LetsTalkUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CFE9496A291CB85100BE399A /* Resources */ = {
+		CF28F614291F4830009EA839 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE94977291CB85200BE399A /* Preview Assets.xcassets in Resources */,
-				CFE94974291CB85200BE399A /* Assets.xcassets in Resources */,
+				CF28F626291F4831009EA839 /* LaunchScreen.storyboard in Resources */,
+				CF28F623291F4831009EA839 /* Assets.xcassets in Resources */,
+				CF28F621291F4830009EA839 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFE9497A291CB85200BE399A /* Resources */ = {
+		CF28F62A291F4831009EA839 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFE94984291CB85200BE399A /* Resources */ = {
+		CF28F634291F4831009EA839 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +254,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CFE94968291CB85100BE399A /* Sources */ = {
+		CF28F612291F4830009EA839 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE94972291CB85100BE399A /* ContentView.swift in Sources */,
-				CFE94970291CB85100BE399A /* LetsTalkApp.swift in Sources */,
+				CF28F61E291F4830009EA839 /* ViewController.swift in Sources */,
+				CF28F61A291F4830009EA839 /* AppDelegate.swift in Sources */,
+				CF28F61C291F4830009EA839 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFE94978291CB85200BE399A /* Sources */ = {
+		CF28F628291F4831009EA839 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE94981291CB85200BE399A /* LetsTalkTests.swift in Sources */,
+				CF28F631291F4831009EA839 /* LetsTalkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFE94982291CB85200BE399A /* Sources */ = {
+		CF28F632291F4831009EA839 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE9498D291CB85200BE399A /* LetsTalkUITestsLaunchTests.swift in Sources */,
-				CFE9498B291CB85200BE399A /* LetsTalkUITests.swift in Sources */,
+				CF28F63D291F4831009EA839 /* LetsTalkUITestsLaunchTests.swift in Sources */,
+				CF28F63B291F4831009EA839 /* LetsTalkUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CFE9497E291CB85200BE399A /* PBXTargetDependency */ = {
+		CF28F62E291F4831009EA839 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CFE9496B291CB85100BE399A /* LetsTalk */;
-			targetProxy = CFE9497D291CB85200BE399A /* PBXContainerItemProxy */;
+			target = CF28F615291F4830009EA839 /* LetsTalk */;
+			targetProxy = CF28F62D291F4831009EA839 /* PBXContainerItemProxy */;
 		};
-		CFE94988291CB85200BE399A /* PBXTargetDependency */ = {
+		CF28F638291F4831009EA839 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CFE9496B291CB85100BE399A /* LetsTalk */;
-			targetProxy = CFE94987291CB85200BE399A /* PBXContainerItemProxy */;
+			target = CF28F615291F4830009EA839 /* LetsTalk */;
+			targetProxy = CF28F637291F4831009EA839 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		CF28F61F291F4830009EA839 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF28F620291F4830009EA839 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF28F624291F4831009EA839 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF28F625291F4831009EA839 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		CFE9498E291CB85200BE399A /* Debug */ = {
+		CF28F63E291F4831009EA839 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		CFE9498F291CB85200BE399A /* Release */ = {
+		CF28F63F291F4831009EA839 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,20 +430,19 @@
 			};
 			name = Release;
 		};
-		CFE94991291CB85200BE399A /* Debug */ = {
+		CF28F641291F4831009EA839 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LetsTalk/Preview Content\"";
 				DEVELOPMENT_TEAM = 77LQ2AC6A3;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = LetsTalk/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -438,20 +458,19 @@
 			};
 			name = Debug;
 		};
-		CFE94992291CB85200BE399A /* Release */ = {
+		CF28F642291F4831009EA839 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LetsTalk/Preview Content\"";
 				DEVELOPMENT_TEAM = 77LQ2AC6A3;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = LetsTalk/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,7 +486,7 @@
 			};
 			name = Release;
 		};
-		CFE94994291CB85200BE399A /* Debug */ = {
+		CF28F644291F4831009EA839 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -487,7 +506,7 @@
 			};
 			name = Debug;
 		};
-		CFE94995291CB85200BE399A /* Release */ = {
+		CF28F645291F4831009EA839 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -507,7 +526,7 @@
 			};
 			name = Release;
 		};
-		CFE94997291CB85200BE399A /* Debug */ = {
+		CF28F647291F4831009EA839 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,7 +544,7 @@
 			};
 			name = Debug;
 		};
-		CFE94998291CB85200BE399A /* Release */ = {
+		CF28F648291F4831009EA839 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -546,43 +565,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CFE94967291CB85100BE399A /* Build configuration list for PBXProject "LetsTalk" */ = {
+		CF28F611291F4830009EA839 /* Build configuration list for PBXProject "LetsTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFE9498E291CB85200BE399A /* Debug */,
-				CFE9498F291CB85200BE399A /* Release */,
+				CF28F63E291F4831009EA839 /* Debug */,
+				CF28F63F291F4831009EA839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFE94990291CB85200BE399A /* Build configuration list for PBXNativeTarget "LetsTalk" */ = {
+		CF28F640291F4831009EA839 /* Build configuration list for PBXNativeTarget "LetsTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFE94991291CB85200BE399A /* Debug */,
-				CFE94992291CB85200BE399A /* Release */,
+				CF28F641291F4831009EA839 /* Debug */,
+				CF28F642291F4831009EA839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFE94993291CB85200BE399A /* Build configuration list for PBXNativeTarget "LetsTalkTests" */ = {
+		CF28F643291F4831009EA839 /* Build configuration list for PBXNativeTarget "LetsTalkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFE94994291CB85200BE399A /* Debug */,
-				CFE94995291CB85200BE399A /* Release */,
+				CF28F644291F4831009EA839 /* Debug */,
+				CF28F645291F4831009EA839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFE94996291CB85200BE399A /* Build configuration list for PBXNativeTarget "LetsTalkUITests" */ = {
+		CF28F646291F4831009EA839 /* Build configuration list for PBXNativeTarget "LetsTalkUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFE94997291CB85200BE399A /* Debug */,
-				CFE94998291CB85200BE399A /* Release */,
+				CF28F647291F4831009EA839 /* Debug */,
+				CF28F648291F4831009EA839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CFE94964291CB85100BE399A /* Project object */;
+	rootObject = CF28F60E291F4830009EA839 /* Project object */;
 }
