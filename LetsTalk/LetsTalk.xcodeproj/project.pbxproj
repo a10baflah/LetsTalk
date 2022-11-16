@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF008894292494A900E682F9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CF008893292494A900E682F9 /* FirebaseAnalytics */; };
+		CF0088962924975B00E682F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF0088952924975B00E682F9 /* GoogleService-Info.plist */; };
 		CF28F61A291F4830009EA839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28F619291F4830009EA839 /* AppDelegate.swift */; };
 		CF28F61C291F4830009EA839 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28F61B291F4830009EA839 /* SceneDelegate.swift */; };
 		CF28F61E291F4830009EA839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28F61D291F4830009EA839 /* ViewController.swift */; };
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF0088952924975B00E682F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CF28F616291F4830009EA839 /* LetsTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF28F619291F4830009EA839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF28F61B291F4830009EA839 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF008894292494A900E682F9 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +103,7 @@
 		CF28F618291F4830009EA839 /* LetsTalk */ = {
 			isa = PBXGroup;
 			children = (
+				CF0088952924975B00E682F9 /* GoogleService-Info.plist */,
 				CF28F619291F4830009EA839 /* AppDelegate.swift */,
 				CF28F61B291F4830009EA839 /* SceneDelegate.swift */,
 				CF28F61D291F4830009EA839 /* ViewController.swift */,
@@ -143,6 +148,9 @@
 			dependencies = (
 			);
 			name = LetsTalk;
+			packageProductDependencies = (
+				CF008893292494A900E682F9 /* FirebaseAnalytics */,
+			);
 			productName = LetsTalk;
 			productReference = CF28F616291F4830009EA839 /* LetsTalk.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,9 @@
 				Base,
 			);
 			mainGroup = CF28F60D291F4830009EA839;
+			packageReferences = (
+				CF008892292494A900E682F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CF28F617291F4830009EA839 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF28F626291F4831009EA839 /* LaunchScreen.storyboard in Resources */,
+				CF0088962924975B00E682F9 /* GoogleService-Info.plist in Resources */,
 				CF28F623291F4831009EA839 /* Assets.xcassets in Resources */,
 				CF28F621291F4830009EA839 /* Main.storyboard in Resources */,
 			);
@@ -602,6 +614,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF008892292494A900E682F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF008893292494A900E682F9 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF008892292494A900E682F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CF28F60E291F4830009EA839 /* Project object */;
 }

@@ -20,7 +20,7 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMu-pt-v3U">
                                 <rect key="frame" x="33" y="568" width="349" height="86"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="86" id="a0s-l9-jkm"/>
+                                    <constraint firstAttribute="height" constant="86" id="Zcg-oo-a9o"/>
                                 </constraints>
                                 <color key="tintColor" name="AccentColor"/>
                                 <state key="normal" title="Button"/>
@@ -45,25 +45,31 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Log In"/>
                                 <connections>
-                                    <segue destination="PYu-9E-sIS" kind="presentation" modalPresentationStyle="fullScreen" id="Hnp-OQ-74y"/>
+                                    <segue destination="PYu-9E-sIS" kind="modal" animates="NO" modalPresentationStyle="fullScreen" id="Hnp-OQ-74y"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LetsTalk" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4g-Er-p1G">
-                                <rect key="frame" x="141" y="342" width="132" height="47"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="LetsTalk" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4g-Er-p1G">
+                                <rect key="frame" x="141" y="340" width="132" height="47"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="39"/>
                                 <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRJ-mb-e0c">
-                                <rect key="frame" x="64" y="361" width="286" height="117"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="S5X-d1-xfl">
+                                <rect key="frame" x="68.5" y="130" width="277" height="194"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="117" id="479-Lg-Fde"/>
+                                    <constraint firstAttribute="height" constant="194" id="Y2H-30-38X"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRJ-mb-e0c">
+                                <rect key="frame" x="94" y="386" width="226" height="117"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="117" id="Lb4-Ys-qtJ"/>
                                 </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Group">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <font key="NSFont" size="38" name="AppleSymbols"/>
                                             <font key="NSOriginalFont" size="22" name="AppleColorEmoji"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -71,14 +77,14 @@
                                     <fragment content=" ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <font key="NSFont" size="38" name="AppleSymbols"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="Messaging">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <font key="NSFont" size="38" name="AppleSymbols"/>
                                             <font key="NSOriginalFont" size="22" name="AppleColorEmoji"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -86,14 +92,14 @@
                                     <fragment content=" ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <font key="NSFont" size="38" name="AppleSymbols"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="Made">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <font key="NSFont" size="38" name="AppleSymbols"/>
                                             <font key="NSOriginalFont" size="22" name="AppleColorEmoji"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -101,14 +107,14 @@
                                     <fragment content=" ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <font key="NSFont" size="38" name="AppleSymbols"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="Simple">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="27" name="AppleSymbols"/>
+                                            <font key="NSFont" size="38" name="AppleSymbols"/>
                                             <font key="NSOriginalFont" size="22" name="AppleColorEmoji"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -116,31 +122,24 @@
                                 </attributedString>
                                 <color key="highlightedColor" name="AccentColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="S5X-d1-xfl">
-                                <rect key="frame" x="68.5" y="130" width="277" height="194"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="S5X-d1-xfl" secondAttribute="height" multiplier="277:194" id="1GL-lQ-Ss0"/>
-                                    <constraint firstAttribute="height" constant="194" id="Y2H-30-38X"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="Color"/>
                         <constraints>
+                            <constraint firstItem="sMu-pt-v3U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="2XE-PH-3Zy"/>
                             <constraint firstItem="S5X-d1-xfl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="82" id="6V2-dn-7cU"/>
                             <constraint firstItem="S5X-d1-xfl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7AK-ln-GAF"/>
                             <constraint firstItem="S5X-d1-xfl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68.5" id="7Xn-Ne-egX"/>
-                            <constraint firstItem="sMu-pt-v3U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="DIf-El-Zql"/>
-                            <constraint firstItem="XRJ-mb-e0c" firstAttribute="firstBaseline" secondItem="l4g-Er-p1G" secondAttribute="baseline" id="ER2-b0-NmZ"/>
-                            <constraint firstItem="XRJ-mb-e0c" firstAttribute="centerX" secondItem="l4g-Er-p1G" secondAttribute="centerX" id="GAO-03-hOd"/>
-                            <constraint firstItem="SFL-bm-9fu" firstAttribute="centerX" secondItem="S5X-d1-xfl" secondAttribute="centerX" id="GVP-KV-kGI"/>
-                            <constraint firstItem="SFL-bm-9fu" firstAttribute="leading" secondItem="sMu-pt-v3U" secondAttribute="leading" id="Ps4-W8-eJs"/>
-                            <constraint firstItem="SFL-bm-9fu" firstAttribute="trailing" secondItem="sMu-pt-v3U" secondAttribute="trailing" id="W89-Xd-yap"/>
+                            <constraint firstItem="SFL-bm-9fu" firstAttribute="centerX" secondItem="S5X-d1-xfl" secondAttribute="centerX" id="DZt-EZ-mAK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SFL-bm-9fu" secondAttribute="bottom" constant="109" id="GNq-NU-AHg"/>
+                            <constraint firstItem="XRJ-mb-e0c" firstAttribute="centerX" secondItem="sMu-pt-v3U" secondAttribute="centerX" id="NfY-WZ-OrG"/>
+                            <constraint firstItem="XRJ-mb-e0c" firstAttribute="centerX" secondItem="l4g-Er-p1G" secondAttribute="centerX" id="RdD-U8-5pt"/>
+                            <constraint firstItem="SFL-bm-9fu" firstAttribute="leading" secondItem="sMu-pt-v3U" secondAttribute="leading" id="YGX-t9-ksl"/>
+                            <constraint firstItem="XRJ-mb-e0c" firstAttribute="top" secondItem="S5X-d1-xfl" secondAttribute="bottom" constant="62" id="YzJ-st-RT1"/>
                             <constraint firstItem="l4g-Er-p1G" firstAttribute="top" secondItem="S5X-d1-xfl" secondAttribute="bottom" constant="18" id="Z4s-dC-KrQ"/>
-                            <constraint firstItem="sMu-pt-v3U" firstAttribute="centerX" secondItem="XRJ-mb-e0c" secondAttribute="centerX" id="iDT-VG-lMD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SFL-bm-9fu" secondAttribute="bottom" constant="109" id="o3j-jx-CsQ"/>
-                            <constraint firstItem="sMu-pt-v3U" firstAttribute="top" secondItem="XRJ-mb-e0c" secondAttribute="bottom" constant="90" id="swq-3U-baR"/>
-                            <constraint firstItem="SFL-bm-9fu" firstAttribute="top" secondItem="sMu-pt-v3U" secondAttribute="bottom" constant="34" id="ze7-ik-ogP"/>
+                            <constraint firstItem="SFL-bm-9fu" firstAttribute="top" secondItem="sMu-pt-v3U" secondAttribute="bottom" constant="34" id="nIW-Y4-AEL"/>
+                            <constraint firstItem="SFL-bm-9fu" firstAttribute="trailing" secondItem="sMu-pt-v3U" secondAttribute="trailing" id="vOI-RG-fBH"/>
+                            <constraint firstItem="sMu-pt-v3U" firstAttribute="top" secondItem="XRJ-mb-e0c" secondAttribute="bottom" constant="65" id="xxc-Xr-ryh"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -155,14 +154,54 @@
                     <view key="view" contentMode="scaleToFill" id="Bue-7Z-chK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="kj3-Tm-ykX">
+                                <rect key="frame" x="87" y="83" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L4Z-SO-kvg">
+                                <rect key="frame" x="89" y="367" width="236" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VSZ-Ta-wtx">
+                                <rect key="frame" x="89" y="411" width="236" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="03C-nU-KeQ">
+                                <rect key="frame" x="89" y="468" width="236" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Join"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="inApple" translatesAutoresizingMaskIntoConstraints="NO" id="y9n-XT-1aV">
+                                <rect key="frame" x="45" y="525" width="329" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="inGoogle" translatesAutoresizingMaskIntoConstraints="NO" id="Uy4-2P-wFI">
+                                <rect key="frame" x="45" y="604" width="325" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*Apple and Google Sign-In not functional at the moment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSI-CO-DHF">
+                                <rect key="frame" x="127" y="834" width="247" height="11"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="t5Q-GJ-jxj"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="YPM-oh-lUL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hSi-BP-MYL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="745" y="437"/>
+            <point key="canvasLocation" x="744.92753623188412" y="436.60714285714283"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9LL-bV-N1j">
@@ -171,20 +210,87 @@
                     <view key="view" contentMode="scaleToFill" id="Aw1-QW-gd6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Wk9-ZI-TXB">
+                                <rect key="frame" x="87" y="103" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4LC-19-wqG">
+                                <rect key="frame" x="0.0" y="272" width="414" height="624"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Join LetsTalk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OF0-Zq-3yh">
+                                        <rect key="frame" x="131" y="47" width="153" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7E6-AE-zpR">
+                                        <rect key="frame" x="89" y="202" width="236" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9cs-HI-kYC">
+                                        <rect key="frame" x="89" y="160" width="236" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0P8-Nu-EGS">
+                                        <rect key="frame" x="89" y="244" width="236" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8F-ks-Y0F">
+                                        <rect key="frame" x="89" y="303" width="236" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Join"/>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="SignApple" translatesAutoresizingMaskIntoConstraints="NO" id="PAk-b9-eWd">
+                                        <rect key="frame" x="30" y="365" width="354" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="SignGoogle" translatesAutoresizingMaskIntoConstraints="NO" id="F4b-wn-C22">
+                                        <rect key="frame" x="24" y="448" width="357" height="68"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*Apple and Google Sign-Up not functional at the moment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6HD-31-Cxf">
+                                        <rect key="frame" x="133" y="571" width="251" height="11"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="UKz-o1-str"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="JnF-5a-8je"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5PH-Uk-hBz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="746" y="-256"/>
+            <point key="canvasLocation" x="744.92753623188412" y="-256.47321428571428"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.43287196455835986" green="0.74700012314330655" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <image name="Logo" width="376" height="385"/>
+        <image name="SignApple" width="670" height="134"/>
+        <image name="SignGoogle" width="666" height="126"/>
+        <image name="inApple" width="682" height="130"/>
+        <image name="inGoogle" width="662" height="126"/>
         <namedColor name="AccentColor">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.79199999570846558" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BackgroundColor">
+            <color red="0.25099998712539673" green="0.23499999940395355" blue="0.2669999897480011" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="Color">
             <color red="0.25098040700000002" green="0.2352941036" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
