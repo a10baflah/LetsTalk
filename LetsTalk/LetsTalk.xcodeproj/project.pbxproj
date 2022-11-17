@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		675E6457FBACD7568C679A32 /* Pods_LetsTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4083F59BE6829EF93A9331 /* Pods_LetsTalk.framework */; };
+		CF0BAEE229260A06002DC372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAEE129260A06002DC372 /* AppDelegate.swift */; };
+		CF0BAEE429260A06002DC372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAEE329260A06002DC372 /* SceneDelegate.swift */; };
+		CF0BAEE629260A06002DC372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAEE529260A06002DC372 /* ViewController.swift */; };
+		CF0BAEE929260A06002DC372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0BAEE729260A06002DC372 /* Main.storyboard */; };
+		CF0BAEEB29260A07002DC372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0BAEEA29260A07002DC372 /* Assets.xcassets */; };
+		CF0BAEEE29260A07002DC372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0BAEEC29260A07002DC372 /* LaunchScreen.storyboard */; };
+		CF27D4C229260F1F0040AEBD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF27D4C029260F1E0040AEBD /* SignUpViewController.swift */; };
+		CF27D4C329260F1F0040AEBD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF27D4C129260F1F0040AEBD /* LoginViewController.swift */; };
+		CF55997C29262C7E006E9E91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF55997B29262C7E006E9E91 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C4083F59BE6829EF93A9331 /* Pods_LetsTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D923FAFA445E434A9562C3 /* Pods-LetsTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsTalk.debug.xcconfig"; path = "Target Support Files/Pods-LetsTalk/Pods-LetsTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		98DE54EECE5A23D8F5798BA3 /* Pods-LetsTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsTalk.release.xcconfig"; path = "Target Support Files/Pods-LetsTalk/Pods-LetsTalk.release.xcconfig"; sourceTree = "<group>"; };
+		CF0BAEDE29260A06002DC372 /* LetsTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0BAEE129260A06002DC372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF0BAEE329260A06002DC372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF0BAEE529260A06002DC372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF0BAEE829260A06002DC372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF0BAEEA29260A07002DC372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF0BAEED29260A07002DC372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF0BAEEF29260A07002DC372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF27D4C029260F1E0040AEBD /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CF27D4C129260F1F0040AEBD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CF55997B29262C7E006E9E91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF0BAEDB29260A06002DC372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675E6457FBACD7568C679A32 /* Pods_LetsTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5449CA2161632E0B9323D65E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21D923FAFA445E434A9562C3 /* Pods-LetsTalk.debug.xcconfig */,
+				98DE54EECE5A23D8F5798BA3 /* Pods-LetsTalk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		983728170BC6E5A97D278829 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C4083F59BE6829EF93A9331 /* Pods_LetsTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF0BAED529260A06002DC372 = {
+			isa = PBXGroup;
+			children = (
+				CF0BAEE029260A06002DC372 /* LetsTalk */,
+				CF0BAEDF29260A06002DC372 /* Products */,
+				5449CA2161632E0B9323D65E /* Pods */,
+				983728170BC6E5A97D278829 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF0BAEDF29260A06002DC372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF0BAEDE29260A06002DC372 /* LetsTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF0BAEE029260A06002DC372 /* LetsTalk */ = {
+			isa = PBXGroup;
+			children = (
+				CF55997B29262C7E006E9E91 /* GoogleService-Info.plist */,
+				CF0BAEE129260A06002DC372 /* AppDelegate.swift */,
+				CF0BAEE329260A06002DC372 /* SceneDelegate.swift */,
+				CF0BAEE529260A06002DC372 /* ViewController.swift */,
+				CF0BAEE729260A06002DC372 /* Main.storyboard */,
+				CF0BAEEA29260A07002DC372 /* Assets.xcassets */,
+				CF0BAEEC29260A07002DC372 /* LaunchScreen.storyboard */,
+				CF0BAEEF29260A07002DC372 /* Info.plist */,
+				CF27D4C129260F1F0040AEBD /* LoginViewController.swift */,
+				CF27D4C029260F1E0040AEBD /* SignUpViewController.swift */,
+			);
+			path = LetsTalk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF0BAEDD29260A06002DC372 /* LetsTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0BAEF229260A07002DC372 /* Build configuration list for PBXNativeTarget "LetsTalk" */;
+			buildPhases = (
+				4F76D5F97878C8D52CE276D3 /* [CP] Check Pods Manifest.lock */,
+				CF0BAEDA29260A06002DC372 /* Sources */,
+				CF0BAEDB29260A06002DC372 /* Frameworks */,
+				CF0BAEDC29260A06002DC372 /* Resources */,
+				B1DA1CAF375EE53005EA30EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsTalk;
+			productName = LetsTalk;
+			productReference = CF0BAEDE29260A06002DC372 /* LetsTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF0BAED629260A06002DC372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					CF0BAEDD29260A06002DC372 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = CF0BAED929260A06002DC372 /* Build configuration list for PBXProject "LetsTalk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF0BAED529260A06002DC372;
+			productRefGroup = CF0BAEDF29260A06002DC372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF0BAEDD29260A06002DC372 /* LetsTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF0BAEDC29260A06002DC372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0BAEEE29260A07002DC372 /* LaunchScreen.storyboard in Resources */,
+				CF55997C29262C7E006E9E91 /* GoogleService-Info.plist in Resources */,
+				CF0BAEEB29260A07002DC372 /* Assets.xcassets in Resources */,
+				CF0BAEE929260A06002DC372 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F76D5F97878C8D52CE276D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetsTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1DA1CAF375EE53005EA30EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsTalk/Pods-LetsTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsTalk/Pods-LetsTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LetsTalk/Pods-LetsTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF0BAEDA29260A06002DC372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0BAEE629260A06002DC372 /* ViewController.swift in Sources */,
+				CF0BAEE229260A06002DC372 /* AppDelegate.swift in Sources */,
+				CF27D4C229260F1F0040AEBD /* SignUpViewController.swift in Sources */,
+				CF27D4C329260F1F0040AEBD /* LoginViewController.swift in Sources */,
+				CF0BAEE429260A06002DC372 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF0BAEE729260A06002DC372 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF0BAEE829260A06002DC372 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF0BAEEC29260A07002DC372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF0BAEED29260A07002DC372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF0BAEF029260A07002DC372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF0BAEF129260A07002DC372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF0BAEF329260A07002DC372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D923FAFA445E434A9562C3 /* Pods-LetsTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77LQ2AC6A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetsTalk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OOAD.LetsTalkMain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF0BAEF429260A07002DC372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DE54EECE5A23D8F5798BA3 /* Pods-LetsTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77LQ2AC6A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetsTalk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OOAD.LetsTalkMain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF0BAED929260A06002DC372 /* Build configuration list for PBXProject "LetsTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0BAEF029260A07002DC372 /* Debug */,
+				CF0BAEF129260A07002DC372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0BAEF229260A07002DC372 /* Build configuration list for PBXNativeTarget "LetsTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0BAEF329260A07002DC372 /* Debug */,
+				CF0BAEF429260A07002DC372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF0BAED629260A06002DC372 /* Project object */;
+}
