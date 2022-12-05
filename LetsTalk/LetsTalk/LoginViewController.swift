@@ -19,9 +19,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        GIDSignIn.sharedInstance()?.presentingViewController = self
-//        GIDSignIn.sharedInstance().delegate = self
-        // Do any additional setup after loading the view.
+
     }
     
     @IBAction func endEditing(_ sender: UITextField)
@@ -38,7 +36,7 @@ class LoginViewController: UIViewController {
         print ("Email: ", email)
         print ("Pass: ", password)
 //        print ("Password: \(email))"
-        
+        var check=false
         Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in
             guard let strongSelf = self else { return }
             // [START_EXCLUDE]
@@ -54,11 +52,27 @@ class LoginViewController: UIViewController {
                             displayNameString += tmpFactorInfo.displayName ?? ""
                             displayNameString += " "
                     }
+                        check=true
                 }
                 print(error)
+                print("error")
+
+                check=true
+                
             }
+            
+            if check == false{
+                        
+                        print("Signed In")
+                        let storyboard = UIStoryboard(name: "HomeSideSB", bundle: nil)
+                        let vc = storyboard.instantiateViewController(withIdentifier: "HomeSideVC")
+                        vc.modalPresentationStyle = .fullScreen
+                        self?.present(vc, animated: true)
+                    }
+            
         }
-        print("Signed In")
+        
+        
     }
     
     

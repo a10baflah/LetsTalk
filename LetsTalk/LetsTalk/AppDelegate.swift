@@ -5,18 +5,78 @@
 //  Created by Shreyaan Arora on 11/16/22.
 //
 
-import UIKit
 import FirebaseCore
 import FirebaseAuth
+import UIKit
+import CoreData
+import Firebase
+import FirebaseMessaging
+import UserNotifications
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        Messaging.messaging().isAutoInitEnabled = true
+        Messaging.messaging().delegate = self as? MessagingDelegate
         FirebaseApp.configure()
+        
+        if (Auth.auth().currentUser != nil) {
+            
+            self.sideMenu()
+//            let navMain = objHomeSideSB.instantiateViewController(withIdentifier: "navHomeSide") as! UINavigationController
+        }
+        else
+        {
+            
+            self.sideMenu()
+            
+        }
         return true
     }
+    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String)
+    {
+        print("Firebase registration token: \(fcmToken)")
+        
+        let dataDict:[String: String] = ["token": fcmToken]
+        NotificationCenter.default.post(name: Notification.Name("FCMToken"), object: nil, userInfo: dataDict)
+    }
+    
+//    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+//        return ApplicationDelegate.shared.application(application, open: (url as URL?)!, sourceApplication: sourceApplication, annotation: annotation)
+//    }
+    
+    func logOutSuccess() -> Void {
+       
+        let test = objMainSB.instantiateViewController(withIdentifier: "mainPage") as! UINavigationController
+        self.window?.rootViewController = test
+    }
+    func sideMenu() -> Void {
+        
+//        let leftVC = objProfileSB.instantiateViewController(withIdentifier: "ProfileVC")
+//        leftVC.view.backgroundColor = UIColor(white: 1.0, alpha: 1)
+        
+//          let navMain = objHomeSideSB.instantiateViewController(withIdentifier: "navHomeSide") as! UINavigationController
+        
+//        objSideMenu = MFSideMenuContainerViewController.container(withCenter: navMain, leftMenuViewController: leftVC, rightMenuViewController: nil)
+//
+        
+//        self.window?.rootViewController = objSideMenu;
+        
+        
+        self.window?.makeKeyAndVisible()
+    }
+ 
+//    func showSideMenu() -> Void {
+//        objSideMenu.toggleLeftSideMenuCompletion {}
+//    }
+    func test()
+    {}
 
     // MARK: UISceneSession Lifecycle
 
