@@ -131,4 +131,9 @@ extension HomeVC : UITableViewDataSource, UITableViewDelegate{
             self.present(alert, animated: true, completion: nil)
         }
     }
+    //Null Object
+    func tableView() {
+
+    }
+    
 }

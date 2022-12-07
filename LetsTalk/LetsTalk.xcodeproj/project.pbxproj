@@ -29,6 +29,9 @@
 		CFC44E8C293D6A23002CB478 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC44E88293D6A23002CB478 /* ChatVC.swift */; };
 		CFC44E8D293D6A23002CB478 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC44E89293D6A23002CB478 /* HomeVC.swift */; };
 		CFC44E8E293D6A23002CB478 /* ChatSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC44E8A293D6A23002CB478 /* ChatSB.storyboard */; };
+		CFCFFE3129402A26009BFE43 /* timeSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFFE3029402A26009BFE43 /* timeSingleton.swift */; };
+		CFCFFE3329402DEE009BFE43 /* authenticationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFFE3229402DEE009BFE43 /* authenticationObserver.swift */; };
+		CFCFFE35294037F4009BFE43 /* nullObjectUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCFFE34294037F4009BFE43 /* nullObjectUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,9 @@
 		CFC44E88293D6A23002CB478 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		CFC44E89293D6A23002CB478 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		CFC44E8A293D6A23002CB478 /* ChatSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChatSB.storyboard; sourceTree = "<group>"; };
+		CFCFFE3029402A26009BFE43 /* timeSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeSingleton.swift; sourceTree = "<group>"; };
+		CFCFFE3229402DEE009BFE43 /* authenticationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authenticationObserver.swift; sourceTree = "<group>"; };
+		CFCFFE34294037F4009BFE43 /* nullObjectUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nullObjectUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,9 @@
 				CF0BAEEF29260A07002DC372 /* Info.plist */,
 				CF27D4C129260F1F0040AEBD /* LoginViewController.swift */,
 				CF27D4C029260F1E0040AEBD /* SignUpViewController.swift */,
+				CFCFFE3029402A26009BFE43 /* timeSingleton.swift */,
+				CFCFFE3229402DEE009BFE43 /* authenticationObserver.swift */,
+				CFCFFE34294037F4009BFE43 /* nullObjectUser.swift */,
 			);
 			path = LetsTalk;
 			sourceTree = "<group>";
@@ -261,7 +270,9 @@
 				CF0BAEE629260A06002DC372 /* ViewController.swift in Sources */,
 				CF15707A293D707000429B2F /* Constant.swift in Sources */,
 				CF0BAEE229260A06002DC372 /* AppDelegate.swift in Sources */,
+				CFCFFE3129402A26009BFE43 /* timeSingleton.swift in Sources */,
 				CF157080293D71E200429B2F /* HomeTableViewCell.swift in Sources */,
+				CFCFFE35294037F4009BFE43 /* nullObjectUser.swift in Sources */,
 				CF27D4C229260F1F0040AEBD /* SignUpViewController.swift in Sources */,
 				CF15707C293D717400429B2F /* Chat2TableViewCell.swift in Sources */,
 				CF157088293D774C00429B2F /* HomeSideVcCell.swift in Sources */,
@@ -269,6 +280,7 @@
 				CF27D4C329260F1F0040AEBD /* LoginViewController.swift in Sources */,
 				CF157086293D76F800429B2F /* HomeSideVC.swift in Sources */,
 				CF0BAEE429260A06002DC372 /* SceneDelegate.swift in Sources */,
+				CFCFFE3329402DEE009BFE43 /* authenticationObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -33,7 +33,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         else
         {
-            
+            //Using Observer Pattern
+            let loginVerify = LoggedInVerify()
+            let loggerMain = OnlineLogger(subject: loginVerify, id: 1)
             self.sideMenu()
             
         }
@@ -76,7 +78,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        objSideMenu.toggleLeftSideMenuCompletion {}
 //    }
     func test()
-    {}
+    {
+        
+    }
 
     // MARK: UISceneSession Lifecycle
 

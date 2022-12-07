@@ -53,8 +53,9 @@ class ChatVC: UIViewController,UITextFieldDelegate {
             self.present(alert, animated: true, completion: nil)
         }
         else{
+            let time = timeSingleton()
             let database = Database.database().reference()
-            let str =  "\(String(describing: self.getCurrentTimeStamp().replacingOccurrences(of: ".", with: "")))" + "_" + "\(String(describing: Auth.auth().currentUser!.uid))" + "_" + "\(String(describing: dict.object(forKey: "firebaseId")!))"
+            let str =  "\(String(describing: time.getCurrentTimeStamp().replacingOccurrences(of: ".", with: "")))" + "_" + "\(String(describing: Auth.auth().currentUser!.uid))" + "_" + "\(String(describing: dict.object(forKey: "firebaseId")!))"
             
             database.child("Chats").child("\(String(describing: dict.object(forKey: "firebaseId")!))").child(Auth.auth().currentUser!.uid).updateChildValues([str : txtMsg.text!])
             
@@ -84,9 +85,9 @@ class ChatVC: UIViewController,UITextFieldDelegate {
         
     }
     
-    func getCurrentTimeStamp() -> String {
-            return "\(Double(NSDate().timeIntervalSince1970 * 1000))"
-    }
+//    func getCurrentTimeStamp() -> String {
+//            return "\(Double(NSDate().timeIntervalSince1970 * 1000))"
+//    }
     func scrollToBottom(){
         DispatchQueue.main.async {
             let indexPath = IndexPath(row: self.arrMsg.count-1, section: 0)

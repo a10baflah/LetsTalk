@@ -7,7 +7,7 @@
 
 
 import UIKit
-
+//Decorater Pattern
 class HomeTableViewCell: UITableViewCell {
 
     @IBOutlet var lblUserName: UILabel!
@@ -19,7 +19,8 @@ class HomeTableViewCell: UITableViewCell {
         super.awakeFromNib()
     
     }
-
+    //Decorator
+    //Select cell from table view by overriding the selection
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
