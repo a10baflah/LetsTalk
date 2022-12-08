@@ -3,6 +3,7 @@ LetsTalk is a organization wide messaging platform dedicated to make instant mes
 
 Developers/Team:
 Shreyaan Arora
+&
 Abdulrahman Baflah
 
 Language: Swift 6
