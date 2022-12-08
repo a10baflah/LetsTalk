@@ -1,5 +1,5 @@
 # LetsTalk
-LetsTalk is a organization wide messaging dedicated to make instant messaging secure and easy
+LetsTalk is a organization wide messaging platform dedicated to make instant messaging secure and easy
 
 Developers/Team:
 Shreyaan Arora
