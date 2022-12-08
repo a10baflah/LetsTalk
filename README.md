@@ -1,6 +1,10 @@
 # LetsTalk
 LetsTalk is a organization focused messaging platform dedicated to make instant messaging secure and easy
 
+Link to final video (on Google Drive due to GitHub filesize limits): 
+https://drive.google.com/file/d/1aTBUrkUgXt9QlXIQUqb5gNoDjMaUuNFz/view?usp=sharing
+
+
 Developers/Team:
 Shreyaan Arora
 &
